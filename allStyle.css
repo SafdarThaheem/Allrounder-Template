@@ -1,0 +1,322 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: lightgray ;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search{
+    width: 280px;
+    max-width: 250px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.search input{
+    background:transparent;
+    border: 0;
+    width: 87%;
+    outline: none;
+    flex: 1;
+    padding: 0px 15px;
+}
+
+::placeholder{
+    color: black;
+}
+
+.search button{
+    border: 0;
+    outline: none;
+    background: black;
+    border-radius: 50px;
+}
+
+.search button i{
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+}
+
+.nav-bar{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    border-bottom: 4px solid rgb(0, 220, 0);
+}
+
+.manu ul{
+    list-style: none;
+}
+
+.manu ul li{
+    display: inline-block;
+    padding: 5px 20px;
+    border-left: 1px solid white;
+}
+
+.manu ul li:hover{
+    color:rgb(0, 220, 0) ;
+}
+
+.manu .active{
+    border: none;
+    color:rgb(0, 220, 0) ;
+}
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo p{
+    font-size: small;
+}
+
+.logo span{
+    font-size: 30px;
+}
+
+.header-image{
+    width: 100%;
+    height: 380px;
+}
+
+.text{
+    width: 100%;
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.line{
+    content: "";
+    width: 50%;
+    height: 3px;
+    background-color: lightgray ;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    padding: 50px 10px;
+    justify-content: space-around;
+}
+
+.gallery{
+    background-color: lightgray;
+    height: 300px;
+    width: 280px;
+}
+
+.gallery .image{
+    background-color: gray;
+    width: 100%;
+    height: 150px;
+}
+
+.gallery h3{
+    margin-top: 15px;
+    padding: 0px 20px;
+    color: rgb(1, 138, 1);
+    text-align: left;
+}
+
+.gallery p{
+    margin-top: 10px;
+    padding: 0% 20px;
+    text-align: left;
+}
+
+.detail{
+    width: 100%;
+    display: flex;
+    padding: 50px 20px;
+}
+
+.det-view{
+    width: 50%;
+    float: left;
+}
+
+.image-view{
+    width: 50%;
+}
+
+.row1{
+    width: 100%;
+    float: left;
+}
+
+.imgBox{
+    width:  48px;
+    height: 48px;
+    margin-right: 10px;
+    background-color: gray;
+}
+
+.det-view .box{
+    float: left;
+    display: flex;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.det-view .content p{
+    margin-top: 10px;
+}
+
+.det-view .content h2{
+    color: rgb(1, 138, 1);
+}
+
+.profile-img{
+    margin: 10px;
+    background-color: gray;
+    width: 280px;
+    height: 250px;
+}
+
+.div-profile{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.div-profile p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.div-profile a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(1, 138, 1) ;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.footer a{
+    color:rgb(1, 138, 1) ;
+    text-decoration: none;
+}
+
+.footer div{
+    width: 24%;
+}
+
+.about-us .div-image{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+}
+
+.link-block .links{
+    margin-top: 20px;
+    padding: 0px 10px;
+    width: 100%;
+    line-height: 25px;
+}
+
+.form-blog .post-title{
+    width: 100%;
+    margin-top: 20px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.contact-us .cont-detail{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.contact-us .form{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.contact-us .form input{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: gray;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.contact-us .form a{
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgb(1, 138, 1);
+    color: white;
+    padding: 10px 15px;
+}
+
+.footer h4,h3,p{
+    color: gray;
+}
+
+.footer .form a:hover{
+    background-color: green;
+}
+
+.links i{
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.links .bullet{
+    border-bottom: 1px solid gray;
+}
+
+.dolor{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+.dolor a{
+    text-decoration: none;
+    color: rgb(1, 138, 1) ;    
+}
+
+.line1{
+    content: "";
+    width: 95%;
+    height: 3px;
+    background-color: lightgray ;
+    border-radius: 20px;
+
+} 
+
+.slider img{
+    width: 100%;
+    height: 300px;
+}
